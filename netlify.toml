@@ -1,0 +1,3 @@
+[build]
+  publish = "dist"
+# Static HTML: no build command, API keys, database or functions required.
