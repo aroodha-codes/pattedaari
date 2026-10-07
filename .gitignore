@@ -39,15 +39,34 @@ coverage/
 htmlcov/
 
 # ==================================================
-# Generated launch / LinkedIn media
+# Launch / LinkedIn generation files
 # ==================================================
-/launch_*.png
-/launch_*.jpg
-/launch_*.jpeg
-/launch_*.webp
-/launch_*.mp4
-/pattedaari-linkedin*.mp4
-/pattedaari-linkedin*.png
+capture-launch.js
+make_launch_video.py
+
+launch_*.png
+launch_*.jpg
+launch_*.jpeg
+launch_*.webp
+launch_*.mp4
+
+pattedaari-linkedin*.jpg
+pattedaari-linkedin*.jpeg
+pattedaari-linkedin*.png
+pattedaari-linkedin*.mp4
+
+# ==================================================
+# Files you don't want on GitHub
+# ==================================================
+netlify.toml
+package.json
+package-lock.json
+
+# ==================================================
+# IDE / Editor
+# ==================================================
+.vscode/
+.idea/
 
 # ==================================================
 # OS files
@@ -55,12 +74,6 @@ htmlcov/
 .DS_Store
 Thumbs.db
 desktop.ini
-
-# ==================================================
-# IDE / Editor
-# ==================================================
-.vscode/
-.idea/
 
 # ==================================================
 # Temporary files
